@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  ZHTableView
+//
+//  Created by eastmoney on 2018/8/30.
+//  Copyright © 2018年 EM. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// __OBJC__这个宏,在所有的.m和.mm文件中默认就定义了这个宏
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "DefineHeader.h"
+
+#ifdef DEBUG
+#define ZHLog(...) NSLog(__VA_ARGS__)
+#else
+#define ZHLog(...)
+#endif
+
+#endif
+
+
+#endif /* PrefixHeader_pch */
