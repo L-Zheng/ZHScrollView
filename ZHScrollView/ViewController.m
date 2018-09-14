@@ -15,6 +15,7 @@
 #import "DemoCollecitonController.h"
 #import "CarouselCollectionController.h"
 #import "WaterFallController.h"
+#import "ScaleTranslateController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -105,6 +106,12 @@
                                   @"title" : @"瀑布流",
                                   @"block" : ^UIViewController *{
                                       return [[WaterFallController alloc] init];
+                                  }
+                                  },
+                              @{
+                                  @"title" : @"缩放平移",
+                                  @"block" : ^UIViewController *{
+                                      return [[ScaleTranslateController alloc] init];
                                   }
                                   }
                               ]

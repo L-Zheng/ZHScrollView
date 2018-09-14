@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseCollectionViewController : UIViewController{
+@interface BaseCollectionViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>{
     UICollectionView *_collectionView;
 }
 

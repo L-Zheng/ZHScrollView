@@ -8,7 +8,7 @@
 
 #import "BaseCollectionViewController.h"
 
-@interface BaseCollectionViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface BaseCollectionViewController ()
 @property (nonatomic, strong) UICollectionView *collectionView;
 
 @end
@@ -79,7 +79,6 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"BaseCollectionViewCellID" forIndexPath:indexPath];
     cell.contentView.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255.0)/255.0 green:arc4random_uniform(255.0)/255.0 blue:arc4random_uniform(255.0)/255.0 alpha:0.5];
-    //    cell.item = self.items[indexPath.item];
     return cell;
 }
 

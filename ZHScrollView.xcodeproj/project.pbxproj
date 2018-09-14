@@ -41,6 +41,7 @@
 		6241CE50214A6CBD000D3992 /* CarouselCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6241CE33214A6CBC000D3992 /* CarouselCollectionController.m */; };
 		6241CE51214A6CBD000D3992 /* WaterFallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6241CE36214A6CBC000D3992 /* WaterFallController.m */; };
 		6241CE52214A6CBD000D3992 /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6241CE37214A6CBC000D3992 /* WaterFallLayout.m */; };
+		62E77CBA214B4C76008B67E2 /* ScaleTranslateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E77CB9214B4C75008B67E2 /* ScaleTranslateController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,8 @@
 		6241CE38214A6CBC000D3992 /* WaterFallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallController.h; sourceTree = "<group>"; };
 		6241CE53214A6CD8000D3992 /* DefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineHeader.h; sourceTree = "<group>"; };
 		6241CE54214A6D19000D3992 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		62E77CB8214B4C75008B67E2 /* ScaleTranslateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleTranslateController.h; sourceTree = "<group>"; };
+		62E77CB9214B4C75008B67E2 /* ScaleTranslateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleTranslateController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,10 +302,10 @@
 		6241CE28214A6CBC000D3992 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				6241CE29214A6CBC000D3992 /* BaseTableViewController.m */,
 				6241CE2A214A6CBC000D3992 /* BaseCollectionViewController.h */,
-				6241CE2B214A6CBC000D3992 /* BaseTableViewController.h */,
 				6241CE2C214A6CBC000D3992 /* BaseCollectionViewController.m */,
+				6241CE2B214A6CBC000D3992 /* BaseTableViewController.h */,
+				6241CE29214A6CBC000D3992 /* BaseTableViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				6241CE2E214A6CBC000D3992 /* Collection示例 */,
 				6241CE31214A6CBC000D3992 /* 轮播 */,
 				6241CE34214A6CBC000D3992 /* 瀑布流 */,
+				62E77CB7214B4C14008B67E2 /* 缩放平移 */,
 			);
 			path = Collection;
 			sourceTree = "<group>";
@@ -338,12 +342,21 @@
 		6241CE34214A6CBC000D3992 /* 瀑布流 */ = {
 			isa = PBXGroup;
 			children = (
-				6241CE35214A6CBC000D3992 /* WaterFallLayout.h */,
-				6241CE36214A6CBC000D3992 /* WaterFallController.m */,
-				6241CE37214A6CBC000D3992 /* WaterFallLayout.m */,
 				6241CE38214A6CBC000D3992 /* WaterFallController.h */,
+				6241CE36214A6CBC000D3992 /* WaterFallController.m */,
+				6241CE35214A6CBC000D3992 /* WaterFallLayout.h */,
+				6241CE37214A6CBC000D3992 /* WaterFallLayout.m */,
 			);
 			path = "瀑布流";
+			sourceTree = "<group>";
+		};
+		62E77CB7214B4C14008B67E2 /* 缩放平移 */ = {
+			isa = PBXGroup;
+			children = (
+				62E77CB8214B4C75008B67E2 /* ScaleTranslateController.h */,
+				62E77CB9214B4C75008B67E2 /* ScaleTranslateController.m */,
+			);
+			path = "缩放平移";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -497,6 +510,7 @@
 				6241CE4B214A6CBD000D3992 /* PhoneCodeController.m in Sources */,
 				6241CE50214A6CBD000D3992 /* CarouselCollectionController.m in Sources */,
 				6241CE3B214A6CBD000D3992 /* MultiTableLinkFooterView.m in Sources */,
+				62E77CBA214B4C76008B67E2 /* ScaleTranslateController.m in Sources */,
 				6241CE3A214A6CBD000D3992 /* FolderItem.m in Sources */,
 				6241CE39214A6CBD000D3992 /* FolderTableController.m in Sources */,
 				6241CE49214A6CBD000D3992 /* EditTableCell.m in Sources */,
