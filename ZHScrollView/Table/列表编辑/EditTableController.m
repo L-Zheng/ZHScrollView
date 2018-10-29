@@ -101,6 +101,7 @@
     
 //选中某一个
 - (void)updateUIWhenSelectedSingle:(NSIndexPath *)indexPath{
+    if (!indexPath) return;
     [self selecteOrCancelData:indexPath];
     [self.tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
     [self updateBottomView];
@@ -401,7 +402,7 @@
     
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-
+    if (!indexPath) return;
     if (tableView.isEditing) {
         //编辑选中操作
         [self updateUIWhenSelectedSingle:indexPath];

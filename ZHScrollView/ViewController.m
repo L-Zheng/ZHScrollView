@@ -16,6 +16,7 @@
 #import "CarouselCollectionController.h"
 #import "WaterFallController.h"
 #import "ScaleTranslateController.h"
+#import "SettingTableController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -86,6 +87,12 @@
                                   @"title" : @"下拉顶部图片放大",
                                   @"block" : ^UIViewController *{
                                       return [[ScaleTopImageController alloc] init];
+                                  }
+                                  },
+                              @{
+                                  @"title" : @"设置页面",
+                                  @"block" : ^UIViewController *{
+                                      return [[SettingTableController alloc] init];
                                   }
                                   }
                               ],

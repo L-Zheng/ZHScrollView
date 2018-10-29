@@ -42,6 +42,14 @@
 		6241CE51214A6CBD000D3992 /* WaterFallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6241CE36214A6CBC000D3992 /* WaterFallController.m */; };
 		6241CE52214A6CBD000D3992 /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6241CE37214A6CBC000D3992 /* WaterFallLayout.m */; };
 		62E77CBA214B4C76008B67E2 /* ScaleTranslateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E77CB9214B4C75008B67E2 /* ScaleTranslateController.m */; };
+		859170DA2186E6C700534B0B /* SettingTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859170D92186E6C700534B0B /* SettingTableController.m */; };
+		859170DD2186E7C800534B0B /* GroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 859170DC2186E7C800534B0B /* GroupItem.m */; };
+		859170E02186E7D200534B0B /* RowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 859170DF2186E7D200534B0B /* RowItem.m */; };
+		859170E62186EE2500534B0B /* SettingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 859170E52186EE2500534B0B /* SettingTableCell.m */; };
+		859170E92186F3EE00534B0B /* BadgeIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 859170E82186F3EE00534B0B /* BadgeIconView.m */; };
+		859170EC2186F7B200534B0B /* ArrowRowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 859170EB2186F7B200534B0B /* ArrowRowItem.m */; };
+		859170EF2186F7DC00534B0B /* SwitchRowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 859170EE2186F7DC00534B0B /* SwitchRowItem.m */; };
+		859170F52186F95C00534B0B /* SubLabelRowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 859170F42186F95C00534B0B /* SubLabelRowItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +138,22 @@
 		6241CE54214A6D19000D3992 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		62E77CB8214B4C75008B67E2 /* ScaleTranslateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleTranslateController.h; sourceTree = "<group>"; };
 		62E77CB9214B4C75008B67E2 /* ScaleTranslateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleTranslateController.m; sourceTree = "<group>"; };
+		859170D82186E6C700534B0B /* SettingTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingTableController.h; sourceTree = "<group>"; };
+		859170D92186E6C700534B0B /* SettingTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingTableController.m; sourceTree = "<group>"; };
+		859170DB2186E7C800534B0B /* GroupItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupItem.h; sourceTree = "<group>"; };
+		859170DC2186E7C800534B0B /* GroupItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupItem.m; sourceTree = "<group>"; };
+		859170DE2186E7D200534B0B /* RowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RowItem.h; sourceTree = "<group>"; };
+		859170DF2186E7D200534B0B /* RowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RowItem.m; sourceTree = "<group>"; };
+		859170E42186EE2500534B0B /* SettingTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingTableCell.h; sourceTree = "<group>"; };
+		859170E52186EE2500534B0B /* SettingTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingTableCell.m; sourceTree = "<group>"; };
+		859170E72186F3EE00534B0B /* BadgeIconView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BadgeIconView.h; sourceTree = "<group>"; };
+		859170E82186F3EE00534B0B /* BadgeIconView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadgeIconView.m; sourceTree = "<group>"; };
+		859170EA2186F7B200534B0B /* ArrowRowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowRowItem.h; sourceTree = "<group>"; };
+		859170EB2186F7B200534B0B /* ArrowRowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowRowItem.m; sourceTree = "<group>"; };
+		859170ED2186F7DC00534B0B /* SwitchRowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchRowItem.h; sourceTree = "<group>"; };
+		859170EE2186F7DC00534B0B /* SwitchRowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchRowItem.m; sourceTree = "<group>"; };
+		859170F32186F95C00534B0B /* SubLabelRowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubLabelRowItem.h; sourceTree = "<group>"; };
+		859170F42186F95C00534B0B /* SubLabelRowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubLabelRowItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +250,7 @@
 				6241CE0F214A6CBC000D3992 /* 下拉顶部图片缩放 */,
 				6241CE13214A6CBC000D3992 /* 列表编辑 */,
 				6241CE22214A6CBC000D3992 /* 电话区号 */,
+				859170D72186E63D00534B0B /* 设置页面 */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -233,9 +258,9 @@
 		6241CE01214A6CBC000D3992 /* 分组展开合拢 */ = {
 			isa = PBXGroup;
 			children = (
+				6241CE04214A6CBC000D3992 /* FolderTableController.h */,
 				6241CE02214A6CBC000D3992 /* FolderTableController.m */,
 				6241CE03214A6CBC000D3992 /* FolderItem.h */,
-				6241CE04214A6CBC000D3992 /* FolderTableController.h */,
 				6241CE05214A6CBC000D3992 /* FolderItem.m */,
 			);
 			path = "分组展开合拢";
@@ -244,14 +269,14 @@
 		6241CE06214A6CBC000D3992 /* table联动 */ = {
 			isa = PBXGroup;
 			children = (
-				6241CE07214A6CBC000D3992 /* MultiTableLinkFooterView.m */,
-				6241CE08214A6CBC000D3992 /* MultiLinkTableView.m */,
 				6241CE09214A6CBC000D3992 /* MultiTableLinkController.h */,
-				6241CE0A214A6CBC000D3992 /* MultiCollectionCell.h */,
-				6241CE0B214A6CBC000D3992 /* MultiTableLinkFooterView.h */,
 				6241CE0C214A6CBC000D3992 /* MultiTableLinkController.m */,
+				6241CE0B214A6CBC000D3992 /* MultiTableLinkFooterView.h */,
+				6241CE07214A6CBC000D3992 /* MultiTableLinkFooterView.m */,
+				6241CE0A214A6CBC000D3992 /* MultiCollectionCell.h */,
 				6241CE0D214A6CBC000D3992 /* MultiCollectionCell.m */,
 				6241CE0E214A6CBC000D3992 /* MultiLinkTableView.h */,
+				6241CE08214A6CBC000D3992 /* MultiLinkTableView.m */,
 			);
 			path = "table联动";
 			sourceTree = "<group>";
@@ -259,9 +284,9 @@
 		6241CE0F214A6CBC000D3992 /* 下拉顶部图片缩放 */ = {
 			isa = PBXGroup;
 			children = (
+				6241CE12214A6CBC000D3992 /* ScaleTopImageController.h */,
 				6241CE10214A6CBC000D3992 /* ScaleTopImageController.m */,
 				6241CE11214A6CBC000D3992 /* folder.png */,
-				6241CE12214A6CBC000D3992 /* ScaleTopImageController.h */,
 			);
 			path = "下拉顶部图片缩放";
 			sourceTree = "<group>";
@@ -269,20 +294,20 @@
 		6241CE13214A6CBC000D3992 /* 列表编辑 */ = {
 			isa = PBXGroup;
 			children = (
-				6241CE14214A6CBC000D3992 /* EditTableController.m */,
-				6241CE15214A6CBC000D3992 /* QT-012-3@3x.png */,
-				6241CE16214A6CBC000D3992 /* EditBottomView.m */,
-				6241CE17214A6CBC000D3992 /* EditTableHeaderView.m */,
-				6241CE18214A6CBC000D3992 /* EditTableCell.h */,
-				6241CE19214A6CBC000D3992 /* EditItem.m */,
-				6241CE1A214A6CBC000D3992 /* QT-012-3@2x.png */,
-				6241CE1B214A6CBC000D3992 /* EditTableHeaderView.h */,
-				6241CE1C214A6CBC000D3992 /* EditBottomView.h */,
-				6241CE1D214A6CBC000D3992 /* QT-012-2@3x.png */,
 				6241CE1E214A6CBC000D3992 /* EditTableController.h */,
-				6241CE1F214A6CBC000D3992 /* QT-012-2@2x.png */,
-				6241CE20214A6CBC000D3992 /* EditItem.h */,
+				6241CE14214A6CBC000D3992 /* EditTableController.m */,
+				6241CE1B214A6CBC000D3992 /* EditTableHeaderView.h */,
+				6241CE17214A6CBC000D3992 /* EditTableHeaderView.m */,
+				6241CE1C214A6CBC000D3992 /* EditBottomView.h */,
+				6241CE16214A6CBC000D3992 /* EditBottomView.m */,
+				6241CE18214A6CBC000D3992 /* EditTableCell.h */,
 				6241CE21214A6CBC000D3992 /* EditTableCell.m */,
+				6241CE20214A6CBC000D3992 /* EditItem.h */,
+				6241CE19214A6CBC000D3992 /* EditItem.m */,
+				6241CE15214A6CBC000D3992 /* QT-012-3@3x.png */,
+				6241CE1A214A6CBC000D3992 /* QT-012-3@2x.png */,
+				6241CE1D214A6CBC000D3992 /* QT-012-2@3x.png */,
+				6241CE1F214A6CBC000D3992 /* QT-012-2@2x.png */,
 			);
 			path = "列表编辑";
 			sourceTree = "<group>";
@@ -291,10 +316,10 @@
 			isa = PBXGroup;
 			children = (
 				6241CE23214A6CBC000D3992 /* PhoneCodeController.h */,
-				6241CE24214A6CBC000D3992 /* PhoneModel.h */,
-				6241CE25214A6CBC000D3992 /* phoneCode.json */,
 				6241CE26214A6CBC000D3992 /* PhoneCodeController.m */,
+				6241CE24214A6CBC000D3992 /* PhoneModel.h */,
 				6241CE27214A6CBC000D3992 /* PhoneModel.m */,
+				6241CE25214A6CBC000D3992 /* phoneCode.json */,
 			);
 			path = "电话区号";
 			sourceTree = "<group>";
@@ -357,6 +382,29 @@
 				62E77CB9214B4C75008B67E2 /* ScaleTranslateController.m */,
 			);
 			path = "缩放平移";
+			sourceTree = "<group>";
+		};
+		859170D72186E63D00534B0B /* 设置页面 */ = {
+			isa = PBXGroup;
+			children = (
+				859170D82186E6C700534B0B /* SettingTableController.h */,
+				859170D92186E6C700534B0B /* SettingTableController.m */,
+				859170E42186EE2500534B0B /* SettingTableCell.h */,
+				859170E52186EE2500534B0B /* SettingTableCell.m */,
+				859170E72186F3EE00534B0B /* BadgeIconView.h */,
+				859170E82186F3EE00534B0B /* BadgeIconView.m */,
+				859170DB2186E7C800534B0B /* GroupItem.h */,
+				859170DC2186E7C800534B0B /* GroupItem.m */,
+				859170DE2186E7D200534B0B /* RowItem.h */,
+				859170DF2186E7D200534B0B /* RowItem.m */,
+				859170EA2186F7B200534B0B /* ArrowRowItem.h */,
+				859170EB2186F7B200534B0B /* ArrowRowItem.m */,
+				859170ED2186F7DC00534B0B /* SwitchRowItem.h */,
+				859170EE2186F7DC00534B0B /* SwitchRowItem.m */,
+				859170F32186F95C00534B0B /* SubLabelRowItem.h */,
+				859170F42186F95C00534B0B /* SubLabelRowItem.m */,
+			);
+			path = "设置页面";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -495,8 +543,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859170E92186F3EE00534B0B /* BadgeIconView.m in Sources */,
 				6241CE3C214A6CBD000D3992 /* MultiLinkTableView.m in Sources */,
 				6241CDD1214A6C11000D3992 /* ViewController.m in Sources */,
+				859170EF2186F7DC00534B0B /* SwitchRowItem.m in Sources */,
+				859170E62186EE2500534B0B /* SettingTableCell.m in Sources */,
 				6241CE51214A6CBD000D3992 /* WaterFallController.m in Sources */,
 				6241CE3F214A6CBD000D3992 /* ScaleTopImageController.m in Sources */,
 				6241CE44214A6CBD000D3992 /* EditTableHeaderView.m in Sources */,
@@ -508,15 +559,20 @@
 				6241CE3E214A6CBD000D3992 /* MultiCollectionCell.m in Sources */,
 				6241CE4D214A6CBD000D3992 /* BaseTableViewController.m in Sources */,
 				6241CE4B214A6CBD000D3992 /* PhoneCodeController.m in Sources */,
+				859170F52186F95C00534B0B /* SubLabelRowItem.m in Sources */,
 				6241CE50214A6CBD000D3992 /* CarouselCollectionController.m in Sources */,
+				859170DD2186E7C800534B0B /* GroupItem.m in Sources */,
 				6241CE3B214A6CBD000D3992 /* MultiTableLinkFooterView.m in Sources */,
 				62E77CBA214B4C76008B67E2 /* ScaleTranslateController.m in Sources */,
 				6241CE3A214A6CBD000D3992 /* FolderItem.m in Sources */,
 				6241CE39214A6CBD000D3992 /* FolderTableController.m in Sources */,
+				859170E02186E7D200534B0B /* RowItem.m in Sources */,
+				859170DA2186E6C700534B0B /* SettingTableController.m in Sources */,
 				6241CE49214A6CBD000D3992 /* EditTableCell.m in Sources */,
 				6241CE52214A6CBD000D3992 /* WaterFallLayout.m in Sources */,
 				6241CE45214A6CBD000D3992 /* EditItem.m in Sources */,
 				6241CDCE214A6C11000D3992 /* AppDelegate.m in Sources */,
+				859170EC2186F7B200534B0B /* ArrowRowItem.m in Sources */,
 				6241CE4F214A6CBD000D3992 /* DemoCollecitonController.m in Sources */,
 				6241CE4E214A6CBD000D3992 /* BaseCollectionViewController.m in Sources */,
 			);
